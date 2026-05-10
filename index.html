@@ -1,33 +1,114 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MYNSA Holdings</title>
-    <link rel="stylesheet" href="styles.css"> <!-- You can link your custom CSS file here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MYNSA Holdings Pvt Ltd</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #F9F6F3;
+      color: #222;
+      margin: 0;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1E3A3A, #006D77, #CB7246);
+      color: #fff;
+      padding: 3rem 1rem 2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 2.5rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: #CB7246;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, #CB7246, #E89C6C);
+      animation: underline 2s infinite alternate;
+    }
+
+    @keyframes underline {
+      from { width: 40%; }
+      to { width: 100%; }
+    }
+
+    footer {
+      background-color: #1E3A3A;
+      color: #fff;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #CB7246;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-<body bgcolor="#EBEAD8">
-<header>
-    <h1 align="center">Welcome to MYNSA Holdings</h1>
-        <center><img width="20%" src="logov2.png"alt="ETCH"/></center>
-		<h2><p align="center"><em></em></p>
-	</h2>
 
-</header>
+<body>
+  <header>
+    <img src="logov2.png" alt="MYNSA Holdings Logo">
+    <h1>MYNSA Holdings Pvt Ltd</h1>
+    <p>Registered in the Republic of Maldives</p>
+  </header>
 
-    <section class="features" align="center">
+  <section>
+    <h2>About Us</h2>
+    <p>
+      MYNSA Holdings is a Maldivian investment and management company established to develop and oversee diverse business ventures across healthcare, education, and media sectors.
+    </p>
+    <p>
+      Our initial focus is on healthcare — beginning with the acquisition and rebranding of <strong>Hope Health Care</strong> to launch a new, modern physiotherapy clinic in the Maldives.
+    </p>
+  </section>
 
-        <ul><marquee></marquee>
-            
-      </ul>
-    </section>
+  <section>
+    <h2>Contact</h2>
+    <p>Email us at: <a href="mailto:info@mynsaholdings.com">info@mynsaholdings.com</a></p>
+  </section>
 
-    <section class="cta" align="center">
-        <p><strong></strong></p>
-        Email us at: <a href="mailto:info@mynsaholdings.com">info@mynsaholdings.com</a>
-    </section>
-
-    <footer align="center">
-      <p>©2026 MYNSA Holdings Pvt Ltd</p>
-    </footer>
+  <footer>
+    © 2026 MYNSA Holdings Pvt Ltd — All rights reserved.
+  </footer>
 </body>
 </html>
